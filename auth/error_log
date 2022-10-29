@@ -1,0 +1,15 @@
+[24-Oct-2022 10:37:47 Africa/Lagos] PHP Warning:  mysqli_real_connect(): (HY000/1130): Host '50.63.161.137' is not allowed to connect to this MySQL server in /home/examlascohet/public_html/lib/adodb/drivers/adodb-mysqli.inc.php on line 124
+[24-Oct-2022 10:46:06 Africa/Lagos] PHP Warning:  mysqli_real_connect(): (HY000/1130): Host '50.63.161.137' is not allowed to connect to this MySQL server in /home/examlascohet/public_html/lib/adodb/drivers/adodb-mysqli.inc.php on line 124
+[24-Oct-2022 11:23:49 Africa/Lagos] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/examlascohet/public_html/lib/adodb/drivers/adodb-mysqli.inc.php on line 124
+[24-Oct-2022 11:23:49 Africa/Lagos] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/examlascohet/public_html/lib/adodb/drivers/adodb-mysqli.inc.php on line 124
+[24-Oct-2022 11:24:51 Africa/Lagos] PHP Warning:  mysqli_real_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/examlascohet/public_html/lib/adodb/drivers/adodb-mysqli.inc.php on line 124
+[24-Oct-2022 11:24:51 Africa/Lagos] PHP Warning:  mysqli_real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/examlascohet/public_html/lib/adodb/drivers/adodb-mysqli.inc.php on line 124
+[24-Oct-2022 11:29:52 Africa/Lagos] Default exception handler: Exception - Call to undefined function mysql_connect() Debug: 
+Error code: generalexceptionmessage
+* line 461 of /lib/adodb/drivers/adodb-mysql.inc.php: Error thrown
+* line 492 of /lib/adodb/drivers/adodb-mysql.inc.php: call to ADODB_mysql->_connect()
+* line 667 of /lib/adodb/adodb.inc.php: call to ADODB_mysql->_nconnect()
+* line 165 of /auth/db/auth.php: call to ADOConnection->Connect()
+* line 735 of /auth/db/auth.php: call to auth_plugin_db->db_init()
+* line 72 of /auth/test_settings.php: call to auth_plugin_db->test_settings()
+
