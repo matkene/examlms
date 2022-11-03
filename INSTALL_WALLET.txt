@@ -1,0 +1,6 @@
+#ADD WALLET INIT
+Edit File: /course/view.php
+Add to the end of file before echo $OUTPUT->footer();
+Content to add:
+-- $PAGE->requires->js_init_call('digital_purse_currentCourseToEnroll', array(array('user'=>$USER , 'currentCourse'=>$course)));
+-- $PAGE->requires->js_init_call('digital_purse_checkCourseSubscription', array(array('user'=>$USER , 'currentCourse'=>$course)));
